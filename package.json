@@ -1,0 +1,33 @@
+{
+  "name": "x402-test-mcp",
+  "version": "1.0.0",
+  "description": "MCP server that verifies your AI agent can make real x402 payments — pays $1 to the Sycamore Agent Payment Test endpoint and returns the signed diagnostic report",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mcp",
+    "x402",
+    "payments",
+    "agents"
+  ],
+  "author": "",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "x402-test-mcp": "src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sansscott/x402-test-mcp"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "@x402/core": "^2.18.0",
+    "@x402/evm": "^2.18.0",
+    "@x402/fetch": "^2.18.0",
+    "viem": "^2.55.1",
+    "zod": "^4.4.3"
+  }
+}
