@@ -17,8 +17,10 @@ No signup, no API keys — just a funded wallet.
 
 ## Install
 
+Installs straight from GitHub — no npm registry needed:
+
 ```jsonc
-// Claude Desktop / any MCP client config
+// Claude Desktop / Cursor / any MCP client config
 {
   "mcpServers": {
     "x402-test": {
