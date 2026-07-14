@@ -3,7 +3,7 @@
 **Can your AI agent actually pay for things? Prove it in one tool call.**
 
 An MCP server with a single tool, `test_agent_payment`, that makes a real
-[x402](https://docs.x402.org) payment ($1 USDC on Base) to the
+[x402](https://docs.x402.org) payment ($10 USDC on Base) to the
 [Sycamore Agent Payment Test](https://test.sycamore-api.com) endpoint and returns an
 Ed25519-signed diagnostic report card covering every step of the flow:
 
@@ -50,7 +50,7 @@ signed report card. Verify the signature against
 
 ## Cost
 
-$1.00 per paid call, settled in USDC on Base. The endpoint's 402 response
+$10.00 per paid call, settled in USDC on Base. The endpoint's 402 response
 (`accepts[]`) is the source of truth for current price and network.
 
 ## Links

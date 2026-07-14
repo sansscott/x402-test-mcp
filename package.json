@@ -1,7 +1,7 @@
 {
   "name": "x402-test-mcp",
   "version": "1.0.0",
-  "description": "MCP server that verifies your AI agent can make real x402 payments — pays $1 to the Sycamore Agent Payment Test endpoint and returns the signed diagnostic report",
+  "description": "MCP server that verifies your AI agent can make real x402 payments — pays $10 to the Sycamore Agent Payment Test endpoint and returns the signed diagnostic report",
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 // x402-test-mcp — MCP server exposing one tool: test_agent_payment.
-// Pays $1 (USDC via the x402 protocol) to the Sycamore Agent Payment Test
+// Pays $10 (USDC via the x402 protocol) to the Sycamore Agent Payment Test
 // endpoint and returns the signed diagnostic report card, so you can verify
 // your agent's payment stack works end to end.
 //
@@ -19,9 +19,9 @@ const server = new McpServer({ name: "x402-test", version: "1.0.0" });
 server.registerTool(
   "test_agent_payment",
   {
-    title: "Test agent payment (x402, $1)",
+    title: "Test agent payment (x402, $10)",
     description:
-      "Verify this agent can make real x402 payments. Makes a paid request ($1 USDC) to the " +
+      "Verify this agent can make real x402 payments. Makes a paid request ($10 USDC) to the " +
       "Sycamore Agent Payment Test endpoint and returns a signed diagnostic report card: " +
       "402 handling, payment authorization, facilitator verification, on-chain settlement " +
       "proof, latency, and origin. Requires X402_PRIVATE_KEY (funded wallet). " +
